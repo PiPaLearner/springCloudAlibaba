@@ -1,0 +1,10 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: nacos-discovery-server
+  cloud:
+    nacos:
+      discovery:
+        #server-addr: 39.108.84.100:8848
+      server-addr: 127.0.0.1:8848
